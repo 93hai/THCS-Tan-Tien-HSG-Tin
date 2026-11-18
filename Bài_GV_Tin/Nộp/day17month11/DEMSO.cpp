@@ -14,6 +14,7 @@ int main(){
             long long sum = 0;
             while(i < s.size() && s[i] >= '0' && s[i] <= '9'){
                 sum = sum * 10 + (s[i] - '0');
+                i++;
             }
             he[sum]++;
         }
@@ -21,7 +22,7 @@ int main(){
 
     long long dem = 0;
     for(auto i:he){
-        if(i.second == 1){
+        if(i.first > 0 && i.second == 1){
             dem++;
         }
     }
