@@ -7,11 +7,6 @@ int main(){
     long long n,k;
     cin >> n >> k;
 
-    if(k < 0){
-        cout << -1;
-        return 0;
-    }
-
     vector<long long> a(n);
 
     for(int i=0;i<n;i++){
@@ -21,7 +16,11 @@ int main(){
     sort(a.begin(),a.end());
 
     vector<long long> dp(n,0);
-    long long dem = 0;
+    long long dem = -1;
+
+    if(k >= 0){
+        dem = 0;
+    }
     dp[0] = a[0];
 
     if(dp[0] <= k){
