@@ -11,11 +11,18 @@ int main(){
 
     long long g = __gcd(c,d);
 
+    long long cac_so_chia_het_cho_g;
+    if(g == 1){
+        cac_so_chia_het_cho_g = 0;
+    }else{
+        cac_so_chia_het_cho_g = floor((double) b / g) - floor((double) a / g);
+    }
+
     long long tong = b - a;
 
-    long long cac_so_chia_het_cho_g = floor((double) b / g) - floor((double) a / g);
+    
     long long cac_so_chia_het_cho_c = floor((double) b / c) - floor((double) a / c);
     long long cac_so_chia_het_cho_d = floor((double) b / d) - floor((double) a / d);
 
-    cout << tong - (cac_so_chia_het_cho_c + cac_so_chia_het_cho_d + cac_so_chia_het_cho_g);
+    cout << tong - (cac_so_chia_het_cho_g + cac_so_chia_het_cho_c + cac_so_chia_het_cho_d);
 }
