@@ -9,7 +9,7 @@ int main(){
     long long a,b,c,d;
     cin >> a >> b >> c >> d;
 
-    long long g = a * b / __gcd(c,d);
+    long long g = c * d / __gcd(c,d);
     long long tong = b - a;
 
     
