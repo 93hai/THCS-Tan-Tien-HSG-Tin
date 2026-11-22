@@ -10,16 +10,19 @@ int main(){
     cin >> n;
     
     long long lon_nhat = -1;
+    long long vi_tri = 0;
     long long j = 2;
     while(j <= n){
         long long sum = 0;
         for(int i=j;i<n;i+=j){
             sum += i;
         }
-        lon_nhat = max(lon_nhat, sum);
-        cout << lon_nhat << " " << j << "\n";
+        if(lon_nhat < sum){
+            lon_nhat = sum;
+            vi_tri = j;
+        }
         j++;;
     }
-    cout << lon_nhat;
+    cout << vi_tri;
     return 0;
 }
