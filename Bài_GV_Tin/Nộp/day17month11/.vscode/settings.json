@@ -1,0 +1,30 @@
+{
+    "C_Cpp.default.compilerPath":  "C:\\msys64\\ucrt64\\bin\\g++.exe",
+    "C_Cpp.default.cppStandard":  "c++17",
+    "C_Cpp.default.cStandard":  "c17",
+    "C_Cpp.default.intelliSenseMode":  "windows-gcc-x64",
+    "terminal.integrated.env.windows":  {
+                                            "PATH":  "C:\\msys64\\ucrt64\\bin;${env:PATH}"
+                                        },
+    "terminal.integrated.profiles.windows":  {
+                                                 "C++ Windows PowerShell":  {
+                                                                                "path":  "${env:WINDIR}\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                                                                                "args":  [
+                                                                                             "-NoProfile"
+                                                                                         ]
+                                                                            }
+                                             },
+    "terminal.integrated.defaultProfile.windows":  "C++ Windows PowerShell",
+    "code-runner.runInTerminal":  true,
+    "code-runner.saveFileBeforeRun":  true,
+    "code-runner.ignoreSelection":  true,
+    "code-runner.preserveFocus":  false,
+    "code-runner.fileDirectoryAsCwd":  true,
+    "code-runner.executorMap":  {
+                                    "cpp":  "\u0026 \u0027C:\\msys64\\ucrt64\\bin\\g++.exe\u0027 -std=c++17 -O2 -Wall -Wextra $fullFileName -o \"$fileNameWithoutExt.exe\"; if ($LASTEXITCODE -eq 0) { \u0026 \".\\$fileNameWithoutExt.exe\" }"
+                                },
+    "cph-ng.languages.cppCompiler":  "C:\\msys64\\ucrt64\\bin\\g++.exe",
+    "cph-ng.languages.cppCompilerArgs":  "-std=c++17 -O2 -Wall -Wextra -DCPH",
+    "cph-ng.languages.cppObjcopy":  "C:\\msys64\\ucrt64\\bin\\objcopy.exe",
+    "cph-ng.problem.problemFilePath":  "${dirname}/.cph-ng/${basename}.bin"
+}
