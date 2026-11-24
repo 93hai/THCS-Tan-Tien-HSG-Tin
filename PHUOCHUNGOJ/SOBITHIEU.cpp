@@ -23,6 +23,6 @@ int main(){
             return 0;
         }
     }
-    cout << n-1;
+    cout << n;
     return 0;
 }
