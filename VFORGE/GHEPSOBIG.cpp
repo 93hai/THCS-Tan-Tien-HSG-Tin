@@ -2,24 +2,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-long long check(string n){
-    long long sum = 0;
-    for(int i=0;i<n.size();i++){
-        sum = sum * 10 + n[i] - '0';
-    }
-    return sum;
-}
-
 bool cmp(string a, string b){
-    long long trai = check(a + b);
-    long long phai = check(b + a);
-
-    if(trai > phai){
-        return a > b;
-    }else if(phai > trai){
-        return b > a;
-    }
-    return 0;
+    if(a != b) return a + b > b + a;
+    return a > b;
 }
 
 int main(){
