@@ -23,6 +23,6 @@ int main(){
             return 0;
         }
     }
-    cout << "sairoi";
+    cout << n-1;
     return 0;
 }
