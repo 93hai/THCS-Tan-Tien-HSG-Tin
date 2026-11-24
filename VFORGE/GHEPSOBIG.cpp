@@ -9,8 +9,10 @@ bool cmp(string a, string b){
         if(a[i] != b[i]) return a > b;
     }
 
-    if(a.size() != b.size()){
-        return a.size() < b.size();
+    if(g < a.size()){
+        return a[g] > b[g-1];
+    }else if(g < b.size()){
+        return b[g] > a[g-1];
     }
     return a > b;
 }
