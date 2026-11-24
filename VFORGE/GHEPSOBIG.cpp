@@ -8,7 +8,7 @@ bool cmp(string a, string b){
     for(int i=0;i<g;i++){
         if(a[i] != b[i]) return a > b;
     }
-
+//
     if(g - 1 < a.size()){
         return a[g] > b[g-1];
     }else if(g - 1 < b.size()){
