@@ -17,7 +17,7 @@
 <a id="gioi-thieu"></a>
 ## 📖 Giới thiệu
 
-Chào mừng bạn đến với **`hoc`** — kho lưu trữ mã nguồn và hành trình học tập, rèn luyện môn Tin học của Hải. Repository tập hợp có hệ thống các bài luyện tập C++, Python, các chuyên đề thuật toán từ cơ bản đến nâng cao và các đợt làm bài tập / đề thi Học sinh Giỏi (HSG) lớp 9 theo ngày.
+Chào mừng bạn đến với **`hoc`** — kho lưu trữ mã nguồn và hành trình học tập, rèn luyện môn Tin học của Hải học sinh trường THCS Tân Tiến phân hiệu 2. Repository tập hợp có hệ thống các bài luyện tập C++, Python, các chuyên đề thuật toán từ cơ bản đến nâng cao và các đợt làm bài tập / đề thi Học sinh Giỏi (HSG) lớp 9 theo ngày.
 
 ### Mục tiêu của kho lưu trữ:
 - ⚡ **Tra cứu tức thì**: Tìm kiếm nhanh mã nguồn theo ngôn ngữ, thư mục và chuyên đề thuật toán.
