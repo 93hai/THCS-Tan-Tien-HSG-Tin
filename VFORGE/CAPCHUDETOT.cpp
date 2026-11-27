@@ -28,15 +28,15 @@ int main(){
     }
 
     sort(c.begin(),c.end());
-    sort(d.begin(),d.end());
+    sort(d.begin(),d.end(), greater<int>());
 
-    int j = 1;
+    int j = n-1;
     long long sum = 0;
     for(int i=0;i<n;i++){
-        while(j < d.size() && c[i] >= d[j]){
-            j++;
+        while(j - i >= 0 && c[i] > d[j]){
+            j--;
         }
-        sum += j - i;
+        sum += n - max(j-1, i+1) + 1;
     }
     cout << sum;
     return 0;
