@@ -18,11 +18,12 @@ int main(){
     sort(a.begin(), a.end());
 
     int dem = 0;
-    for(int i=0;i<n-1;i++){
-        if(a[i].second > a[i+1].first){
-            dem++;
-        }
+    
+    for(int i=0;i<n;i++){
+        int g = lower_bound(a.begin(), a.end(), make_pair(a[i].second, -1)) - a.begin();
+        dem += g - 1 - i;
     }
+
     cout << dem;
     return 0;
 }
