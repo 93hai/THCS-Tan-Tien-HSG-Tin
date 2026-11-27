@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int N = 100000005;
+const int N = 50000; // cần gợi ý
 vector<int> ans(N);
 
 
@@ -36,7 +36,7 @@ void hehe(){
 
     for(auto i:bruh){
         if(i.second == 1){
-           for(auto j:mp[i.second]){ // cần gợi ý
+           for(auto j:mp[i.first]){ // cần gợi ý
                 ans[j] = cnt;
            }
         }
