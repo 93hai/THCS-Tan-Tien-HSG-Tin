@@ -4,19 +4,23 @@ using namespace std;
 
 struct THONGTINTHISINH{
     string ten;
-    long long sbd;
-    long long toan;
-    long long van;
-    long long tienganh;
+    double sbd;
+    double toan;
+    double van;
+    double tienganh;
 };
 
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    string s;
-    getline(cin >> ws, s);
-    long long sbd;
-    cin >> sbd;
+    vector<THONGTINTHISINH> a(5);
+
+    getline(cin >> ws, a[1].ten);
+
+    cin >> a[1].sbd >> a[1].toan >> a[1].van >> a[1].tienganh;
     
+    cout << a[1].ten << "\n";
+    cout << a[1].sbd << "\n";
+    cout << fixed << setprecision(2) << (a[1].toan + a[1].van + a[1].tienganh)/3;
 }
