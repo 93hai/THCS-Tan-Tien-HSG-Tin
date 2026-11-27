@@ -36,7 +36,7 @@ int main(){
         while(j - i >= 0 && c[i] > d[j]){
             j--;
         }
-        sum += n - max(j-1, i+1) + 1;
+        sum += n - max(j + 1, i+1);
     }
     cout << sum;
     return 0;
