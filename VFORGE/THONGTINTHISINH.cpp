@@ -4,7 +4,7 @@ using namespace std;
 
 struct THONGTINTHISINH{
     string ten;
-    double sbd;
+    string sbd;
     double toan;
     double van;
     double tienganh;
@@ -17,8 +17,9 @@ int main(){
     vector<THONGTINTHISINH> a(5);
 
     getline(cin >> ws, a[1].ten);
+    cin >> a[1].sbd;
 
-    cin >> a[1].sbd >> a[1].toan >> a[1].van >> a[1].tienganh;
+    cin >> a[1].toan >> a[1].van >> a[1].tienganh;
     
     cout << a[1].ten << "\n";
     cout << a[1].sbd << "\n";
