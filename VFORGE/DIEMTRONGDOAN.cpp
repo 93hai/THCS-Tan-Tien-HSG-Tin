@@ -2,6 +2,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+const int N = 100000005;
+vector<int> ans(N);
+
+
 void hehe(){
     int n,q;
     cin >> n >> q;
@@ -20,7 +24,7 @@ void hehe(){
     for(int i=1;i<=q;i++){
         int x;
         cin >> x;
-        bruh.push_back({x,1});
+        if(mp[x].empty()) bruh.push_back({x,1}); // cần gợi ý
         mp[x].push_back(i);
     }
 
@@ -28,11 +32,13 @@ void hehe(){
 
     int cnt = 0;
 
-    long long ans[q+5];
+
 
     for(auto i:bruh){
         if(i.second == 1){
-            ans[i.first] = cnt;
+           for(auto j:mp[i.second]){ // cần gợi ý
+                ans[j] = cnt;
+           }
         }
 
         if(i.second == 0) cnt++;
