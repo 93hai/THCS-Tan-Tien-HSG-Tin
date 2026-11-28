@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-vscode.cpptools",
+    "formulahendry.code-runner",
+    "usernamehw.errorlens",
+    "langningchen.cph-ng",
+    "aaron-bond.better-comments"
+  ]
+}

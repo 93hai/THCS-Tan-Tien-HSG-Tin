@@ -15,17 +15,34 @@
 ---
 
 <a id="gioi-thieu"></a>
+# 🚀 THCS Tân Tiến | HSG Tin học
+
+### Tan Tien Secondary School – Competitive Programming
+
+C++17 · Python · Data Structures & Algorithms
+
 ## 📖 Giới thiệu
 
-Chào mừng bạn đến với **`hoc`** — kho lưu trữ mã nguồn và hành trình học tập, rèn luyện môn Tin học của Hải. Repository tập hợp có hệ thống các bài luyện tập C++, Python, các chuyên đề thuật toán từ cơ bản đến nâng cao và các đợt làm bài tập / đề thi Học sinh Giỏi (HSG) lớp 9 theo ngày.
+Đây là kho lưu trữ mã nguồn, tài liệu và hành trình
+luyện thi HSG Tin học của học sinh THCS Tân Tiến.
 
-### Mục tiêu của kho lưu trữ:
-- ⚡ **Tra cứu tức thì**: Tìm kiếm nhanh mã nguồn theo ngôn ngữ, thư mục và chuyên đề thuật toán.
-- 🎯 **Ôn tập thực chiến**: Phân loại theo mảng kiến thức (Mảng cộng dồn, Hai con trỏ, Sàng nguyên tố, Quy hoạch động, Tham lam...) thay vì chỉ lưu theo mốc thời gian nộp bài.
-- 🔍 **Trung thực & Chính xác**: Toàn bộ danh mục và tài liệu mô tả chính xác 100% theo các tệp đang có trong ổ đĩa/mã nguồn gốc.
-- 🛠️ **Chuẩn hóa thao tác**: Cung cấp hướng dẫn biên dịch, chạy tệp stdin/stdout hoặc file input/output (`freopen`) nhất quán.
+Dự án được khởi tạo nhằm lưu giữ kiến thức lập trình,
+chia sẻ kinh nghiệm học thuật toán và hỗ trợ các thế
+hệ học sinh tiếp theo của trường.
 
----
+## 🎯 Mục tiêu
+
+- Lưu trữ lời giải C++ và Python.
+- Hệ thống hóa kiến thức luyện thi HSG Tin học.
+- Chia sẻ kinh nghiệm giải quyết bài toán.
+- Xây dựng nguồn tài liệu để các khóa sau tham khảo.
+- Khuyến khích học sinh đóng góp và phát triển dự án.
+
+## 📌 Tính chất dự án
+
+Đây là dự án học tập tự nguyện của học sinh,
+không phải repository chính thức của nhà trường.
+
 
 <a id="thong-tin-nhanh"></a>
 ## ⚡ Thông tin nhanh
