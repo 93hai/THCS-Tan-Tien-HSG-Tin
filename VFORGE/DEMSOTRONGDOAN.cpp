@@ -23,7 +23,7 @@ int main(){
         cin >> l >> r >> x;
 
         long long R = upper_bound(a + l, a + r + 1, x) - a;
-        long long L = lower_bound(a + l, a + r, x) - a;
+        long long L = lower_bound(a + l, a + r + 1, x) - a;
 
         cout << R - L << "\n";
     }
