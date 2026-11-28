@@ -2,6 +2,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+long long a[1000005];
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -9,25 +11,21 @@ int main(){
     int n;
     cin >> n;
 
-    vector<long long> a(n+1);
-
-    for(int i=1;i<=n;i++){
+    for(int i=0;i<n;i++){
         cin >> a[i];
     }
 
     int q;
     cin >> q;
 
-    a[0] = -2e18;
-
     for(int i=0;i<q;i++){
         long long l,r,x;
         cin >> l >> r >> x;
 
-        long long R = upper_bound(a.begin() + l, a.begin() + r, x) - a.begin();
-        long long L = lower_bound(a.begin() + l, a.begin() + r, x) - a.begin();
+        long long R = upper_bound(a + l, a + r + 1, x) - a;
+        long long L = lower_bound(a + l, a + r, x) - a;
 
-        cout << R - L << " ";
+        cout << R - L << "\n";
     }
     return 0;
 }
